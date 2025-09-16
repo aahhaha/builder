@@ -1,3 +1,5 @@
+package Builder;
+
 public class GameCharacter {
     private final String name;
     private final String role;
