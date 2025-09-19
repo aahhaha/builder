@@ -8,7 +8,7 @@ public class ArcherFactory implements CharacterFactory {
         return new GameCharacter.Builder()
                 .setName("Legolas")
                 .setRole("Archer")
-                .setHealth(120)
+                .setHealth(130)
                 .setStrength(50)
                 .setAgility(90)
                 .setWeapon("Bow")
