@@ -5,7 +5,7 @@ public class AFMain {
         RaceFactory elves = new ElfFactory();
         RaceFactory orcs = new OrcFactory();
         Warrior ew = elves.createWarrior();
-        Archer ea = orcs.createArcher();
+        Archer ea = elves.createArcher();
         Warrior ow = orcs.createWarrior();
         Archer oa = orcs.createArcher();
         ew.attack(); ea.shoot();
