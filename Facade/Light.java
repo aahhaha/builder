@@ -1,7 +1,14 @@
 package Facade;
 
 public class Light {
-    public void turnLight() {
-        System.out.println("Lights turned on");
+    private String status = "off";
+
+    public void turnOn() {
+        status = "on";
+        System.out.println("Lights turned " + status + ".");
+    }
+
+    public String getStatus() {
+        return status;
     }
 }

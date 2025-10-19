@@ -11,4 +11,8 @@ public abstract class CharacterDecorator implements ICharacter {
     public void attack() {
         character.attack();
     }
+
+    public ICharacter getCharacter() {
+        return character;
+    }
 }

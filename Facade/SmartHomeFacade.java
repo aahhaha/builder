@@ -1,20 +1,26 @@
 package Facade;
 
 public class SmartHomeFacade {
-    private final Light lights;
-    private final Music music;
-    private final Climate climate;
-
-    public SmartHomeFacade() {
-        lights = new Light();
-        music = new Music();
-        climate = new Climate();
-    }
+    private final Light light = new Light();
+    private final Music music = new Music();
+    private final Climate climate = new Climate();
 
     public void goodMorning() {
-        System.out.println("Good morning mode:");
-        lights.turnLight();
-        climate.setClimate();
+        System.out.println("Good morning mode activated.");
+        light.turnOn();
+        climate.setComfortTemperature();
         music.playMusic();
+    }
+
+    public Light getLight() {
+        return light;
+    }
+
+    public Music getMusic() {
+        return music;
+    }
+
+    public Climate getClimate() {
+        return climate;
     }
 }

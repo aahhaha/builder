@@ -1,7 +1,14 @@
 package Facade;
 
 public class Climate {
-    public void  setClimate() {
-        System.out.println("Climate set");
+    private String temperatureStatus = "Normal";
+
+    public void setComfortTemperature() {
+        temperatureStatus = "Comfort temperature set to 22°C";
+        System.out.println(temperatureStatus);
+    }
+
+    public String getTemperatureStatus() {
+        return temperatureStatus;
     }
 }
