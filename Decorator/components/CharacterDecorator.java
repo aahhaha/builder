@@ -1,4 +1,6 @@
-package Decorator;
+package Decorator.components;
+
+import Decorator.base.ICharacter;
 
 public abstract class CharacterDecorator implements ICharacter {
     protected ICharacter character;

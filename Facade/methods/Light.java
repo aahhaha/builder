@@ -1,4 +1,4 @@
-package Facade;
+package Facade.methods;
 
 public class Light {
     private String status = "off";

@@ -1,4 +1,6 @@
-package Decorator;
+package Decorator.components;
+
+import Decorator.base.ICharacter;
 
 public class Shield extends CharacterDecorator {
     private final String shieldType = "basic shield";

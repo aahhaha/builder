@@ -1,4 +1,4 @@
-package Decorator;
+package Decorator.base;
 
 public class BasicKnight implements ICharacter {
     private String weapon = "sword";

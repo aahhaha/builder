@@ -1,9 +1,13 @@
-package Facade;
+package Facade.facade;
+
+import Facade.methods.Climate;
+import Facade.methods.Light;
+import Facade.methods.Music;
 
 public class SmartHomeFacade {
-    private final Light light = new Light();
-    private final Music music = new Music();
-    private final Climate climate = new Climate();
+    private Light light = new Light();
+    private Music music = new Music();
+    private Climate climate = new Climate();
 
     public void goodMorning() {
         System.out.println("Good morning mode activated.");

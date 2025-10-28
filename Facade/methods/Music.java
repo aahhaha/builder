@@ -1,4 +1,4 @@
-package Facade;
+package Facade.methods;
 
 public class Music {
     private String currentTrack = "None";

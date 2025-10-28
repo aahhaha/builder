@@ -1,4 +1,4 @@
-package Facade;
+package Facade.methods;
 
 public class Climate {
     private String temperatureStatus = "Normal";

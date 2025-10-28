@@ -1,4 +1,6 @@
-package Decorator;
+package Decorator.components;
+
+import Decorator.base.ICharacter;
 
 public class Speed extends CharacterDecorator {
     private int speedBonus = 20;
