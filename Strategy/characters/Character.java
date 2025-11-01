@@ -1,4 +1,6 @@
-package Strategy;
+package Strategy.characters;
+
+import Strategy.attack.AttackStrategy;
 
 public class Character {
     private AttackStrategy strategy;

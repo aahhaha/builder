@@ -1,4 +1,4 @@
-package Strategy;
+package Strategy.attack;
 
 public class MagicAttack implements AttackStrategy {
     @Override
