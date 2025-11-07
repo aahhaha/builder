@@ -2,6 +2,7 @@ package Observer.core;
 
 import java.util.ArrayList;
 import java.util.List;
+import Observer.entities.Player;
 
 public class GameServer implements Subject {
     private final List<Observer> players = new ArrayList<>();
